@@ -28,4 +28,33 @@
       "Uso em aço com broca de até 6mm;"
     ]
   }
+    {
+    "id": "2",
+    "modelo": "teste",
+    "marca": "BOSCH",
+    "imagens": [
+      "https://telhanorte.vtexassets.com/arquivos/ids/1218366-1200-auto",
+      "https://telhanorte.vtexassets.com/arquivos/ids/1224835-1200-auto",
+      "https://telhanorte.vtexassets.com/arquivos/ids/1218370-1200-auto"
+    ],
+    "especificacoes": {
+      "tensão": "12V",
+      "voltagem": "Bivolt",
+      "mandril": "6mm",
+      "torque": "15Nm",
+      "rpm": "700",
+      "bateria": "1.5Ah"
+    },
+    "conteudo": [
+      "1 Parafusadeira;",
+      "1 Carregador;",
+      "1 Kit de bits + prolongador;",
+      "1 Maleta;",
+      "1 Manual;"
+    ],
+    "recomendacao": [
+      "Uso em madeira com broca de até 10mm;",
+      "Uso em aço com broca de até 6mm;"
+    ]
+  }
 ]
