@@ -21,6 +21,7 @@ main {
     flex-direction: column; /* Alinha o conteúdo verticalmente */
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 #filtro-div{
     position: absolute;
@@ -35,6 +36,7 @@ main {
     color: white;
     text-align: center;
     margin: 25px 0 10px 0;
+    border: 0;
 }
 
 #mensagem-quantidade {
