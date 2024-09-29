@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column; /* Flexbox para organizar o layout */
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Alinha o conteúdo verticalmente */
+}
+
+section {
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%; /* Largura do conteúdo */
+    max-width: 800px; /* Largura máxima */
+}
+
+section h1, section h2 {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 200px;
+    max-height: 300px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Alinha a lista à esquerda */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.close-menu {
+    font-size: 30px; /* Tamanho da seta */
+    color: white; /* Cor da seta */
+    cursor: pointer; /* Muda o cursor ao passar sobre a seta */
+    padding: 10px; /* Espaçamento */
+    text-align: right; /* Alinha a seta à direita */
+}
+
+#ficha-lista {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove padding padrão */
+}
+
+#ficha-lista li {
+    display: flex; /* Alinha os itens em linha */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os elementos */
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    padding: 5px 0; /* Espaçamento vertical para melhor visualização */
+    border-bottom: 1px solid #ccc; /* Linha divisória opcional entre itens */
+}
+
+.nome {
+    flex: 1; /* Permite que a parte do nome ocupe o espaço disponível */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-weight: bold; /* Deixa o nome em negrito */
+}
+
+.valor {
+    flex: 1; /* Permite que a parte do valor ocupe o espaço disponível */
+    text-align: right; /* Alinha o valor à direita */
+    margin-left: 20px; /* Adiciona um espaço entre o nome e o valor */
+}
+
+#ficha-tecnica {
+    background-color: #292929;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
