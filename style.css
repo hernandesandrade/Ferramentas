@@ -1,3 +1,4 @@
+/* RESET E CONFIGURAÇÃO GLOBAL */
 * {
     margin: 0;
     padding: 0;
@@ -13,17 +14,46 @@ body {
     height: 100vh; /* Ocupa toda a altura da tela */
 }
 
+/* MAIN */
 main {
-    justify-content: center;
-    align-items: center;
+    flex: 1;
     display: flex;
     flex-direction: column; /* Alinha o conteúdo verticalmente */
+    justify-content: center;
+    align-items: center;
+}
+#filtro-div{
+    position: absolute;
+    top: 0;
+    align-items: center;
 }
 
+#filtro{
+    display: none;
+    padding: 10px 0;
+    background-color: #292929;
+    color: white;
+    text-align: center;
+    margin: 25px 0 10px 0;
+}
+
+#mensagem-quantidade {
+    position: absolute;         /* Mantém a posição absoluta */
+    top: 75px;                    /* Pode ajustar conforme necessário */
+    left: 50%;                 /* Coloca o elemento no meio da tela horizontalmente */
+    transform: translateX(-50%); /* Ajusta para centralizar corretamente */
+    padding: 0;
+    text-align: center;        /* Centraliza o texto dentro do elemento */
+    color: white;              /* Define a cor do texto */
+    width: 400px;
+}
+
+
+/* SEÇÕES */
 section {
     background-color: rgb(58, 58, 58);
     padding: 20px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
     text-align: center;
     width: 90%; /* Largura do conteúdo */
     max-width: 500px; /* Largura máxima */
@@ -34,6 +64,7 @@ section h1, section h2 {
     margin-bottom: 20px;
 }
 
+/* LISTAS */
 ul {
     padding: 0;
     text-align: left; /* Alinha a lista à esquerda */
@@ -45,7 +76,6 @@ ul li {
 
 #ficha-lista {
     list-style-type: none; /* Remove marcadores da lista */
-    padding: 0; /* Remove padding padrão */
 }
 
 section ul#ficha-lista li {
@@ -68,14 +98,15 @@ section ul#ficha-lista li .valor {
     margin-left: 20px; /* Adiciona um espaço entre o nome e o valor */
 }
 
-section #conteudo-lista{
+section #conteudo-lista {
     list-style: none;
 }
 
-section #recomendacao-lista{
+section #recomendacao-lista {
     padding-left: 10px;
 }
 
+/* BOXES */
 .box {
     background-color: #292929;
     padding: 15px;
@@ -121,11 +152,12 @@ section #recomendacao-lista{
     right: 10px;
 }
 
+/* FOOTER */
 footer {
     background-color: #222;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     bottom: 0;
     width: 100%;
     display: flex;
@@ -134,10 +166,10 @@ footer {
 }
 
 footer p {
-    margin: 10px 0 0;
     font-size: 14px;
 }
 
+/* SOCIAL ICONS */
 .social-icons {
     margin-bottom: 10px;
 }
@@ -147,4 +179,76 @@ footer p {
     margin: 0 10px;
     font-size: 24px;
     text-decoration: none;
+}
+
+/* PRODUTOS */
+.lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto-box {
+    background-color: #333;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.produto-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.produto-box p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.produto-box a {
+    background: linear-gradient(90deg, #f4f124, #f10022);
+    padding: 5px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+/* ICÔNES DE REDES SOCIAIS */
+#instagram-icon {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); /* Cores do gradiente */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+}
+
+#linkedin-icon {
+    color: #0A66C2; /* Cor azul característica do LinkedIn */
+    font-size: 24px;
+}
+
+#portfolio-icon {
+    background: linear-gradient(45deg, #42a5f5, #66bb6a, #ffa726); /* Gradiente de cores */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24px;
+}
+
+/* BOTÃO VOLTAR */
+#btn-voltar {
+    display: none;
+    margin: 20px auto; /* Centraliza o botão */
+    background: linear-gradient(90deg, #f4f124, #f10022); /* Gradiente igual ao botão de "Ver detalhes" */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: black; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: 900; /* Deixa o texto em negrito */
+    text-align: center; /* Centraliza o texto */
+    transition: background 0.3s; /* Transição suave para o background */
 }

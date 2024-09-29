@@ -5,11 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ferramentas Telhanorte</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style.css"> <!-- Referência ao CSS externo -->
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
-<main >
+<main>
+    <a href="index" id="btn-voltar">Voltar à lista de produtos</a>
+    <div id="filtro-div">
+        <select id="filtro" onchange="filtrarProdutos()">
+            <option value="todos">Todos</option>
+            <option value="parafusadeira">Parafusadeiras</option>
+            <option value="furadeira">Furadeiras</option>
+            <option value="parafusadeira/furadeira">Parafusadeiras/Furadeiras</option>
+            <option value="serra mármore">Serra Mármore</option>
+            <option value="serra tico tico">Serra Tico Tico</option>
+            <option value="tupia">Tupia</option>
+            <option value="lixadeira">Lixadeiras</option>
+            <option value="esmerilhadeira">Esmerilhadeiras</option>
+            <option value="politriz">Politriz</option>
+        </select>
+        <p id="mensagem-quantidade"></p>
+    </div>
+
     <section>
         <h1 id="titulo"></h1>
         <div id="imagem">
@@ -20,34 +37,28 @@
 
         <h2>Ficha Técnica</h2>
         <div class="box" id="ficha-tecnica">
-            <ul id="ficha-lista">
-                <!-- A ficha técnica será preenchida aqui pelo JavaScript -->
-            </ul>
+            <ul id="ficha-lista"></ul>
         </div>
         <h2>Conteúdo da Embalagem</h2>
         <div class="box" id="conteudo">
-            <ul id="conteudo-lista">
-
-            </ul>
+            <ul id="conteudo-lista"></ul>
         </div>
         <h2>Recomendações de Uso</h2>
         <div class="box" id="recomendacao">
-            <ul id="recomendacao-lista">
-
-            </ul>
+            <ul id="recomendacao-lista"></ul>
         </div>
     </section>
 </main>
 <footer>
     <div class="social-icons">
-        <a href="https://www.instagram.com/her.sousa/" target="_blank" aria-label="Instagram">
-            <i class="fab fa-instagram"></i>
+        <a href="https://www.instagram.com/seuusuario" target="_blank" aria-label="Instagram">
+            <i id="instagram-icon" class="fab fa-instagram"></i>
         </a>
-        <a href="https://www.linkedin.com/in/hernandesandrade/" target="_blank" aria-label="LinkedIn">
-            <i class="fab fa-linkedin"></i>
+        <a href="https://www.linkedin.com/in/seuusuario" target="_blank" aria-label="LinkedIn">
+            <i id="linkedin-icon" class="fab fa-linkedin"></i>
         </a>
-        <a href="https://hernandesandrade.github.io/Portfolio/" target="_blank" aria-label="Portfólio">
-            <i class="fas fa-globe"></i>
+        <a href="https://www.seuportfolio.com" target="_blank" aria-label="Portfólio">
+            <i id="portfolio-icon" class="fas fa-globe"></i>
         </a>
     </div>
     <p>&copy; 2024 Hernandes Andrade. Todos os direitos reservados.</p>
