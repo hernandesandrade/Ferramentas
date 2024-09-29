@@ -141,7 +141,11 @@ function filtrarProdutos() {
 
         // Atualiza a mensagem com a quantidade de produtos encontrados
         const mensagemQuantidade = document.getElementById('mensagem-quantidade');
-        mensagemQuantidade.textContent = `Foram encontrados ${produtosFiltrados.length} item(s).`;
+        if (tipoSelecionado !== "todos") {
+            mensagemQuantidade.textContent = `Foram encontrados ${produtosFiltrados.length} item(s).`;
+        }else{
+            mensagemQuantidade.textContent = '';
+        }
 
         // Adiciona os produtos filtrados
         produtosFiltrados.forEach(produto => {
