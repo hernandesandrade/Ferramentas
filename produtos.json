@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "1420267",
     "modelo": "PARAFUSADEIRA GSR 1000 SMART",
     "marca": "BOSCH",
     "tipo": "parafusadeira",
@@ -13,104 +13,18 @@
       "tensão": "12V",
       "voltagem": "Bivolt",
       "mandril": "6mm",
-      "torque": "15Nm",
+      "torque": "15/6Nm",
       "rpm": "700",
-      "bateria": "1.5Ah"
+      "bateria": "1.5Ah",
+      "peso": "0,93kg",
+      "Cód. Barras": "3165140830928",
+      "": "4059952582559",
+      "": "3165140830911"
     },
     "conteudo": [
       "1 Parafusadeira;",
       "1 Carregador;",
-      "1 Kit de bits + prolongador;",
-      "1 Maleta;",
-      "1 Manual;"
-    ],
-    "recomendacao": [
-      "Uso em madeira com broca de até 10mm;",
-      "Uso em aço com broca de até 6mm;"
-    ]
-  },
-  {
-    "id": "2",
-    "modelo": "PARAFUSADEIRA GSR 1000 SMART",
-    "marca": "BOSCH",
-    "tipo": "parafusadeira",
-    "imagens": [
-      "https://telhanorte.vtexassets.com/arquivos/ids/1218366-1200-auto",
-      "https://telhanorte.vtexassets.com/arquivos/ids/1224835-1200-auto",
-      "https://telhanorte.vtexassets.com/arquivos/ids/1218370-1200-auto"
-    ],
-    "especificacoes": {
-      "tensão": "12V",
-      "voltagem": "Bivolt",
-      "mandril": "6mm",
-      "torque": "15Nm",
-      "rpm": "700",
-      "bateria": "1.5Ah"
-    },
-    "conteudo": [
-      "1 Parafusadeira;",
-      "1 Carregador;",
-      "1 Kit de bits + prolongador;",
-      "1 Maleta;",
-      "1 Manual;"
-    ],
-    "recomendacao": [
-      "Uso em madeira com broca de até 10mm;",
-      "Uso em aço com broca de até 6mm;"
-    ]
-  },
-  {
-    "id": "3",
-    "modelo": "PARAFUSADEIRA GSR 1000 SMART",
-    "marca": "BOSCH",
-    "tipo": "parafusadeira",
-    "imagens": [
-      "https://telhanorte.vtexassets.com/arquivos/ids/1218366-1200-auto",
-      "https://telhanorte.vtexassets.com/arquivos/ids/1224835-1200-auto",
-      "https://telhanorte.vtexassets.com/arquivos/ids/1218370-1200-auto"
-    ],
-    "especificacoes": {
-      "tensão": "12V",
-      "voltagem": "Bivolt",
-      "mandril": "6mm",
-      "torque": "15Nm",
-      "rpm": "700",
-      "bateria": "1.5Ah"
-    },
-    "conteudo": [
-      "1 Parafusadeira;",
-      "1 Carregador;",
-      "1 Kit de bits + prolongador;",
-      "1 Maleta;",
-      "1 Manual;"
-    ],
-    "recomendacao": [
-      "Uso em madeira com broca de até 10mm;",
-      "Uso em aço com broca de até 6mm;"
-    ]
-  },
-  {
-    "id": "4",
-    "modelo": "PARAFUSADEIRA GSR 1000 SMART",
-    "marca": "BOSCH",
-    "tipo": "parafusadeira",
-    "imagens": [
-      "https://telhanorte.vtexassets.com/arquivos/ids/1218366-1200-auto",
-      "https://telhanorte.vtexassets.com/arquivos/ids/1224835-1200-auto",
-      "https://telhanorte.vtexassets.com/arquivos/ids/1218370-1200-auto"
-    ],
-    "especificacoes": {
-      "tensão": "12V",
-      "voltagem": "Bivolt",
-      "mandril": "6mm",
-      "torque": "15Nm",
-      "rpm": "700",
-      "bateria": "1.5Ah"
-    },
-    "conteudo": [
-      "1 Parafusadeira;",
-      "1 Carregador;",
-      "1 Kit de bits + prolongador;",
+      "1 Kit de bits + extensor;",
       "1 Maleta;",
       "1 Manual;"
     ],
