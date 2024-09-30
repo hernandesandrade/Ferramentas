@@ -19,6 +19,11 @@ function listarProdutos() {
         const listaProdutos = document.createElement('div'); // Cria um container para os produtos
         listaProdutos.classList.add('lista-produtos'); // Adiciona uma classe para estilização
 
+        const listaSection = document.createElement('section');
+        listaSection.classList.add('lista-section');
+
+        listaSection.appendChild(listaProdutos);
+
         produtos.forEach(produto => {
             const produtoBox = document.createElement('div'); // Cria uma caixa para cada produto
             produtoBox.classList.add('produto-box'); // Adiciona uma classe para estilização
@@ -48,7 +53,7 @@ function listarProdutos() {
             listaProdutos.appendChild(produtoBox); // Adiciona a caixa do produto à lista
         });
 
-        main.appendChild(listaProdutos); // Adiciona a lista de produtos ao main
+        main.appendChild(listaSection); // Adiciona a lista de produtos ao main
     }).catch(error => {
         console.error(error);
     });
@@ -136,15 +141,13 @@ function filtrarProdutos() {
 
         // Filtra os produtos com base no tipo selecionado
         const produtosFiltrados = produtos.filter(produto => {
-            return tipoSelecionado === 'todos' || produto.tipo === tipoSelecionado;
+            return tipoSelecionado === 'todos' || produto.tipo.toLowerCase() === tipoSelecionado.toLowerCase();
         });
-
-        // Atualiza a mensagem com a quantidade de produtos encontrados
-        const mensagemQuantidade = document.getElementById('mensagem-quantidade');
-        if (tipoSelecionado !== "todos") {
-            mensagemQuantidade.textContent = `Foram encontrados ${produtosFiltrados.length} item(s).`;
+        const naoEncontrado = document.getElementById('mensagem-quantidade');
+        if (produtosFiltrados.length ===0){
+            naoEncontrado.textContent = 'Nenhum produto foi encontrado.';
         }else{
-            mensagemQuantidade.textContent = '';
+            naoEncontrado.textContent = null;
         }
 
         // Adiciona os produtos filtrados
@@ -173,17 +176,19 @@ function filtrarProdutos() {
             listaProdutos.appendChild(produtoBox);
         });
 
-        // Limpa produtos antigos
+        // Limpa a lista antiga de produtos
         const listaAntiga = main.querySelector('.lista-produtos');
         if (listaAntiga) {
-            main.removeChild(listaAntiga);
+            listaAntiga.remove();
         }
 
+        // Adiciona a nova lista de produtos filtrados
         main.appendChild(listaProdutos);
     }).catch(error => {
         console.error(error);
     });
 }
+
 
 
 

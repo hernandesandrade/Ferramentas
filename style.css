@@ -21,7 +21,6 @@ main {
     flex-direction: column; /* Alinha o conteúdo verticalmente */
     justify-content: center;
     align-items: center;
-    padding-top: 100px;
 }
 #filtro-div{
     position: absolute;
@@ -60,6 +59,11 @@ section {
     width: 90%; /* Largura do conteúdo */
     max-width: 500px; /* Largura máxima */
     margin-bottom: 20px;
+}
+
+.lista-section{
+    background-color: black;
+    padding-top: 60px;
 }
 
 section h1, section h2 {
