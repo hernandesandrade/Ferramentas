@@ -1,7 +1,7 @@
 [
   {
     "id": "1420267",
-    "modelo": "PARAFUSADEIRA GSR 1000 SMART",
+    "modelo": "PARAFUSADEIRA/FURADEIRA GSR 1000 SMART",
     "marca": "BOSCH",
     "tipo": "parafusadeira",
     "imagens": [
@@ -14,12 +14,13 @@
       "tensão": "12V",
       "voltagem": "Bivolt",
       "mandril": "6mm",
-      "torque": "15/6Nm",
+      "torque máx.": "15Nm",
       "rpm": "700",
       "bateria": "1.5Ah",
       "peso": "0,93kg",
       "Cód. Barras": "3165140830928",
-      " ": "3165140830911"
+      " ": "3165140830911",
+      " ": "teste"
     },
     "conteudo": [
       "1 Parafusadeira;",
@@ -30,6 +31,38 @@
     ],
     "recomendacao": [
       "Uso em madeira com broca de até 10mm;",
+      "Uso em aço com broca de até 6mm;"
+    ]
+  },
+  {
+    "id": "1809830",
+    "modelo": "PARAFUSADEIRA/FURADEIRA WS2550K",
+    "marca": "WESCO",
+    "tipo": "parafusadeira",
+    "imagens": [
+      "https://telhanorte.vtexassets.com/arquivos/ids/1233062-1200-auto",
+      "https://telhanorte.vtexassets.com/arquivos/ids/1232790-1200-auto",
+      "https://telhanorte.vtexassets.com/arquivos/ids/1233063-1200-auto"
+    ],
+    "especificacoes": {
+      "id": "1809830",
+      "tensão": "12V",
+      "voltagem": "Bivolt",
+      "mandril": "10mm",
+      "torque máx.": "13Nm",
+      "rpm": "850",
+      "bateria": "1.3Ah",
+      "peso": "1,25kg",
+      "Cód. Barras": "6924328329923"
+    },
+    "conteudo": [
+      "1 Parafusadeira;",
+      "1 Carregador;",
+      "1 Kit de bits;",
+      "1 Manual;"
+    ],
+    "recomendacao": [
+      "Uso em madeira com broca de até 15mm;",
       "Uso em aço com broca de até 6mm;"
     ]
   }
