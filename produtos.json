@@ -64,5 +64,30 @@
       "Uso em madeira com broca de até 15mm;",
       "Uso em aço com broca de até 6mm;"
     ]
+  },
+  {
+    "id": "319775",
+    "modelo": "TUPIA LAMINADORA 3709",
+    "marca": "MAKITA",
+    "tipo": "tupia",
+    "imagens": [
+      "https://telhanorte.vtexassets.com/arquivos/ids/1279529-1200-auto"
+    ],
+    "especificacoes": {
+      "id": "319775",
+      "voltagem": "220V",
+      "potência": "530W",
+      "pinça": "6mm",
+      "rpm": "30.000",
+      "peso": "2,45kg",
+      "Cód. Barras": "883810674544"
+    },
+    "conteudo": [
+      "1 Tupia;",
+      "1 Manual;"
+    ],
+    "recomendacao": [
+      "Uso doméstico e/ou profissional"
+    ]
   }
 ]
