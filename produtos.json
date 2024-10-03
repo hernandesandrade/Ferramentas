@@ -89,5 +89,34 @@
     "recomendacao": [
       "Uso doméstico e/ou profissional"
     ]
+  },
+  {
+    "id": "1809989",
+    "modelo": "MARTELETE PERFURADOR ROMPEDOR 220V",
+    "marca": "WESCO",
+    "tipo": "martelete",
+    "imagens": [
+      "https://telhanorte.vtexassets.com/arquivos/ids/1232797-1200-auto"
+    ],
+    "especificacoes": {
+      "id": "1809989",
+      "voltagem": "220V",
+      "potência": "800W",
+      "mandril": "10mm",
+      "rpm": "1.200",
+      "peso": "3kg",
+      "Cód. Barras": "6924328389682"
+    },
+    "conteudo": [
+      "1 Martelete;",
+      "1 Punho auxiliar;",
+      "1 Limitador de profundidade;",
+      "1 Manual;"
+    ],
+    "recomendacao": [
+      "Broca pra madeira até 30mm;",
+      "Broca pra aço até 13mm;"
+      "Broca pra alvenaria até 26mm;"
+    ]
   }
 ]
