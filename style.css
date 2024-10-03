@@ -130,8 +130,8 @@ section #recomendacao-lista {
 }
 
 #imagem img {
-    max-width: 200px;
-    max-height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 
@@ -204,8 +204,8 @@ footer p {
 }
 
 .produto-box img {
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
